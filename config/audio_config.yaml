@@ -1,0 +1,30 @@
+smoothing: 0.07       
+extend_thresh: 20.0  
+volume_smooth: 0.08
+
+sample_rate: 44100
+block_size: 512 
+
+envelope_rate: 0.005
+
+note_semitones:
+  Left:
+    Index: 48   # C3
+    Middle: 50  # D3
+    Ring: 52    # E3
+    Pinky: 55   # G3
+  Right:
+    Index: 60   # C4
+    Middle: 62  # D4
+    Ring: 64    # E4
+    Pinky: 67   # G4
+
+note_names:
+  48: C3
+  50: D3
+  52: E3
+  55: G3
+  60: C4
+  62: D4
+  64: E4
+  67: G4
