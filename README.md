@@ -14,7 +14,7 @@ Jeder Finger ist einer bestimmten Note zugeordnet. Die **Krümmung (Curl)** eine
 
 ---
 
-### ⚙️ Konfiguration
+### Konfiguration
 
 Die gesamte Logik für:
 - Finger-zu-Noten-Zuordnung  
@@ -32,7 +32,7 @@ Dort können alle Parameter flexibel angepasst werden.
 
 ---
 
-### 🧠 Funktionsweise
+### Funktionsweise
 
 1. Kamera erfasst die Hände  
 2. MediaPipe erkennt 21 Hand-Landmarks  
@@ -78,7 +78,7 @@ python src/apps/desktop.py
 
 ---
 
-### 📁 Projektstruktur
+### Projektstruktur
 
 ```bash
 Finger_Synth/
@@ -94,17 +94,9 @@ Finger_Synth/
 
 ---
 
-### 🖼️ Demo
+### Demo Video
 
-<p align="center">
-  <img src="https://i.redd.it/1gvpkpcf57h91.jpg" alt="Finger Synth Demo">
-</p>
-
----
-
-### 🎥 Video
-
-[![Watch the video](https://img.youtube.com/vi/bZKVuOYg6DY/0.jpg)](https://www.youtube.com/watch?v=bZKVuOYg6DY)
+[![Watch the video](https://img.youtube.com/vi/riYetWe_TzA/0.jpg)](https://www.youtube.com/watch?v=riYetWe_TzA)
 
 ---
 
@@ -118,7 +110,7 @@ Each finger is mapped to a musical note. The **finger curl controls the volume o
 
 ---
 
-### ⚙️ Configuration
+### Configuration
 
 All configuration related to:
 - Finger-to-note mapping  
@@ -136,7 +128,7 @@ All behavior can be adjusted there.
 
 ---
 
-### 🧠 How It Works
+### How It Works
 
 1. Camera captures the hands  
 2. MediaPipe detects 21 hand landmarks  
@@ -182,7 +174,7 @@ python src/apps/desktop.py
 
 ---
 
-### 📁 Project Structure
+### Project Structure
 
 ```bash
 Finger_Synth/
@@ -197,14 +189,6 @@ Finger_Synth/
 
 ---
 
-### 🖼️ Demo
+### Video
 
-<p align="center">
-  <img src="https://i.redd.it/1gvpkpcf57h91.jpg" alt="Example output">
-</p>
-
----
-
-### 🎥 Video
-
-[![Watch the video](https://img.youtube.com/vi/bZKVuOYg6DY/0.jpg)](https://www.youtube.com/watch?v=bZKVuOYg6DY)
+[![Watch the video](https://img.youtube.com/vi/riYetWe_TzA/0.jpg)](https://www.youtube.com/watch?v=riYetWe_TzA)
