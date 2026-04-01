@@ -22,8 +22,8 @@ def main():
     if not cap.isOpened():
         raise RuntimeError("Cannot open webcam.")
 
-    cv2.namedWindow("Finger Music", cv2.WINDOW_NORMAL)
-    cv2.moveWindow("Finger Music", 0, 50)
+    cv2.namedWindow("Finger Synth", cv2.WINDOW_NORMAL)
+    cv2.moveWindow("Finger Synth", 0, 50)
 
     show_skeleton = True
 
@@ -57,7 +57,7 @@ def main():
                     (10, h - 12), cv2.FONT_HERSHEY_SIMPLEX,
                     0.4, (140, 140, 140), 1, cv2.LINE_AA)
 
-        cv2.imshow("Finger Music", frame)
+        cv2.imshow("Finger Synth", frame)
 
         key = cv2.waitKey(1) & 0xFF
         if key == ord("q"):
